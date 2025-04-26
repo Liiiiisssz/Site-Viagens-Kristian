@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color:rgb(255, 231, 223);
+}
+
+h1{
+    text-align:center;
+    background-color: darkred;
+    color:whitesmoke;
+    padding: 30px;
+}
+
+P{
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+ul{
+    margin-left: 40px;
+    list-style: circle;
+}
+
+li{
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    font-size: 20px;
+    margin: 10px 20px;
+}
+
+a:hover{
+    color:darkred;
+}
+
+footer{
+    background-color: darkred;
+    margin-top: 40px;
+    color:whitesmoke;
+    padding: 30px;
+    background-image: url('/assets/carro.jpg');
+    background-size:0ic;
+}
+
+h2, h3{
+    margin: 30px;
+}
+
+img{
+    width: 600px;
+    display: block;
+    margin: 40px auto;
+    border: 5px solid darkred; 
+}
