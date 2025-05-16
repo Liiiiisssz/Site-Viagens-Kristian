@@ -11,12 +11,12 @@ body{
     overflow-x: hidden;
 }
 
-.inicio{
+.banner{
     position: relative;
     display: inline-block;
 }
 
-.inicio h1{
+.banner h1{
     font-size: 40px;
     position: absolute;
     text-align: center;
@@ -26,7 +26,7 @@ body{
     background-color: rgba(58, 151, 129, 0.833);
 }
 
-.inicio img {
+.banner img {
     width: 100%;
     height: auto;
     display: block;
@@ -70,6 +70,14 @@ footer{
     background-size:0ic;
 }
 
+.footer{
+    text-align: left;
+}
+
+#frase{
+    text-align: center;
+}
+
 h2, h3{
     margin: 30px;
     text-align: center;
@@ -99,7 +107,7 @@ div h2::after {
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 50px; 
+    gap: 100px; 
   }
   
   .lista-horizontal li {
